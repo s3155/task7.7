@@ -1,11 +1,12 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-    <%= link_to "Sample App", root_path, id: "logo" %>
+    <%= link_to "Task App", root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Top", root_path %></li>
+        <li><%= link_to "トップ",root_path, id: "top1" %></li>
         <% if logged_in? %>
-          <li><%= link_to "Users", '#' %></li>
+          <li><%= link_to "利用者一覧",root_path, id: "top2" %></li>
+          <li><%= link_to "タスク作成",root_path, id: "top3" %></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               Account <b class="caret"></b>

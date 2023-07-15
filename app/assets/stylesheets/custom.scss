@@ -2,9 +2,13 @@
 @import "bootstrap";
 
 /* 共通 */
+header {
+background-color: #008080;
+}
 
 body {
   padding-top: 60px;
+  
 }
 
 section {
@@ -52,22 +56,59 @@ p {
 
 /* ヘッダー */
 
+
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
-}
-
-#logo:hover {
-  color: #fff;
+  font-style: italic;
+  }
+  
+  #logo:hover {
+  color: #777;
   text-decoration: none;
 }
 
+#top1 {
+
+  color: #fff;
+  font-weight: bold;
+  }
+  
+#header1{
+
+  background-color: #008080;
+  }
+
+#top1:hover {
+  color: #777;
+}
+
+#top2 {
+
+  color: #fff;
+  font-weight: bold;
+  }
+  
+
+#top2:hover {
+  color: #777;
+}
+
+#top3
+  {
+  color: #fff;
+  font-weight: bold;
+  }
+  #top3:hover {
+  color: #777;
+}
+  
 /* デバッグウインドウ */
 
 .debug_dump {
